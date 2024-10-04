@@ -23,11 +23,11 @@ header {
 
 nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     position: relative;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1.5em;
+    gap: 10em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
     list-style: none;
@@ -88,7 +88,7 @@ footer ul {
 video {
     height: 50em;
     width: auto;
-    padding: 0 27em;
+    padding: 0 50em;
 
 }
 
@@ -103,7 +103,6 @@ video {
 
 
 /* index.html*/
-
 
 
 
@@ -138,7 +137,7 @@ h2 {
 
 }
 
-a article:hover {
+.gallery a:hover {
     color: midnightblue;
     background-color: rgba(214, 229, 246, 0.902);
     padding: 3em;
@@ -150,14 +149,7 @@ a article:hover {
 
 
 
-
 /* art*/
-
-div img {
-    padding: 3em;
-    background-color: rgb(244, 195, 145, 0.7);
-    border-radius: 2em;
-}
 
 
 div {
@@ -207,19 +199,14 @@ div {
 /* Photography*/
 
 
-section {
-    width: fit-content;
-    display: flex;
-    flex-direction: row;
-
-}
-
+ 
 section p {
     font-size: 2.5em;
     text-align: left;
     width: auto;
 
 }
+
 
 section:first-of-type img {
 
